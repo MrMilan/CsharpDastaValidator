@@ -1,0 +1,9 @@
+
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="urn:dvdstore-schema" targetNamespace="urn:dvdstore-schema">
+    <xs:element name="dvd" type="xs:string" />
+  </xs:schema>
+  <pb:book price="7.99" xmlns:pb="urn:bookstore-schema">The Autobiography of Benjamin Franklin</pb:book>
+  <pd:dvd xmlns:pd="urn:dvdstore-schema">The Godfather</pd:dvd>
+  <pt:tape xmlns:pt="urn:tapestore-schema" xsi:schemaLocation="urn:tapestore-schema tape.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Il Postino</pt:tape>
+

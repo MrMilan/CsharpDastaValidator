@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ds:dasta xmlns:ds="urn:cz-mzcr:ns:dasta:ds4:ds_dasta"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:dsip="urn:cz-mzcr:ns:dasta:ds4:ds_ip"
+	xsi:schemaLocation="urn:cz-mzcr:ns:dasta:ds4:ds_dasta http://ciselniky.dasta.mzcr.cz/xmlschema/ds_dasta-4.03.05.xsd urn:cz-mzcr:ns:dasta:ds4:ds_ip http://ciselniky.dasta.mzcr.cz/xmlschema/ds_ip-4.04.06.xsd"
+	id_soubor="MEDICALC_KK11115_2005-12-12T14:46:25" verze_ds="04.08.06" verze_nclp="02.44.01"
+	bin_priloha="T" ur="T" typ_odesm="KK" ozn_soub="11115" dat_vb="2008-06-13T14:46:25"
+	potvrzeni="P">
+	<ds:zdroj_is kod_firmy="MEDICALC" kod_prog="WMEXP" verze_prog="2.2.3.8"/>
+	<ds:pm>
+		<ds:as typ="I" poradi="1">
+			<ds:vnitrni>999</ds:vnitrni>
+		</ds:as>
+	</ds:pm>
+	<ds:garant_dat id_garant="450124145" odbornost="801">MUDr. Jmeno Prijmeni</ds:garant_dat>
+	<ds:is ico="12345678" icz="44101000" icp="44101882">
+		<ds:as typ="I">
+			<ds:vnitrni>801</ds:vnitrni>
+		</ds:as>
+		<dsip:ip id_pac="7601019998">
+			<dsip:rodcis>7601019998</dsip:rodcis>
+			<dsip:jmeno>Jmeno</dsip:jmeno>
+			<dsip:prijmeni>Prijmeni</dsip:prijmeni>
+			<dsip:dat_dn format="D">1976-01-01</dsip:dat_dn>
+			<dsip:sex>M</dsip:sex>
+			<dsip:pv_pac typ_pv="ZP" dat_ab="2005-12-01T12:53:12">
+				<dsip:pv_zp>
+					<dsip:cispoj>7052024826</dsip:cispoj>
+					<dsip:kodpoj>111</dsip:kodpoj>
+				</dsip:pv_zp>								
+			</dsip:pv_pac>
+			<dsip:ku>
+				<dsip:ku_z typku="AMB.VYS" fazespec="ZF" idku="MEDICALC.FNPL.1234567890">
+					<dsip:dat_prov>2006-12-03T11:00:00</dsip:dat_prov>
+					<dsip:dat_vydani>2006-11-03T11:00:00</dsip:dat_vydani>
+					<dsip:p_pracoviste icz="44101000" icp="44101882" odb="501">
+						<dsip:nazev>Chirurgická ambulance</dsip:nazev>
+					</dsip:p_pracoviste>
+					<dsip:text>
+						<dsip:ptext xml:space="preserve">
+							Při fotbale si podvrkl pravé koleno
+							O koleno s náplní, čéška nebolestivá, bolestivá flexe kolena
+							koleno špatně vyšetřitelné, zásuvka negativní
+							RTG bez traumatu
+							Dg.Distorsio geni l.dx
+							Th provedena punkce kolenního kloubu.vypunktováno 60 ml krve bez tukových kapének, naložena ortesa
+							Dop klidový režim kontrola zde za 2 dny dop
+						</dsip:ptext>
+					</dsip:text>
+					<dsip:dg_vys typ_dg="P" ind_oprav_sd="N">
+						<dsip:diag poradi="1">L031</dsip:diag>
+					</dsip:dg_vys>
+					<dsip:auzku indikace="I" typpol_vz="V" diag="L031">
+						<dsip:dat_du typ="A">2006-12-03T11:00:00</dsip:dat_du>
+						<dsip:vykon kod_vykonu="51012" pocet="1" uctujici="O"/>
+						<dsip:p_pracoviste icz="44101000" icp="44101882" odb="501">
+							<dsip:nazev>Chirurgická ambulance</dsip:nazev>
+						</dsip:p_pracoviste>
+					</dsip:auzku>
+				</dsip:ku_z>
+			</dsip:ku>
+		</dsip:ip>
+	</ds:is>
+</ds:dasta>

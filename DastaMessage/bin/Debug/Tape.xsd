@@ -1,0 +1,5 @@
+<xs:schema xmlns="urn:tapestore-schema"
+         targetNamespace="urn:tapestore-schema"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:element name="tape" type="xs:string"/>
+</xs:schema>

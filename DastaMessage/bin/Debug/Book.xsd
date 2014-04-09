@@ -1,0 +1,13 @@
+<xs:schema xmlns="urn:bookstore-schema"
+         targetNamespace="urn:bookstore-schema"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:element name="book">
+      <xs:complexType>
+         <xs:simpleContent>
+            <xs:extension base="xs:string">
+               <xs:attribute name="price" type="xs:decimal" />
+            </xs:extension>
+         </xs:simpleContent>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>
